@@ -217,7 +217,7 @@ class Mailer(object):
 
 """
 ## Step 1:
-mail_acct = Mailer(receiver_email="your.email@address.com")
+mail_acct = Mailer(receiver_email="receiver.email@address.com")
 ## Step 2:
 assert mail_acct.new_message(mail_subject="This is Subject", mail_body="This is <b>mail body</b>") == True
 ## Step 3:
